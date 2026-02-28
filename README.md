@@ -97,7 +97,7 @@ chmod +x setup.sh
 Or run directly:
 
 ```bash
-curl -s https://raw.githubusercontent.com/yourusername/wsl-setup/main/setup.sh | bash
+curl -s https://raw.githubusercontent.com/admu-sec/wsl-arch-setup/main/setup.sh | bash
 ```
 
 ---
