@@ -1,6 +1,6 @@
 # Arch Linux WSL Setup
 
-A quick setup guide for installing Arch Linux on WSL (Windows Subsystem for Linux) with terminal tools like fastfetch, cmatrix, and cava.
+A quick setup guide for installing Arch Linux on WSL (Windows Subsystem for Linux) with terminal tools like fastfetch & cmatrix.
 
 ---
 
