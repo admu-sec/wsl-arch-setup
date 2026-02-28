@@ -34,7 +34,7 @@ wsl --install archlinux
 
 Installation takes a few minutes. Once complete, Arch Linux launches automatically.
 
-> 💡 Arch opens as root by default — this is normal. A user account is created in Step 3.
+> 💡 Arch opens as root by default — this is normal. A user account is created in step 3.
 
 ---
 
