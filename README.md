@@ -62,10 +62,8 @@ Replace `yourusername` with your own username.
 ### 4. Install Terminal Tools
 
 ```bash
-pacman -S fastfetch cmatrix cava
+pacman -S fastfetch cmatrix
 ```
-
-> 💡 If cava asks for a jack provider, select **2) pipewire-jack** for best WSL compatibility.
 
 ---
 
