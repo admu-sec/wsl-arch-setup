@@ -2,7 +2,7 @@
 
 A quick setup guide for installing Arch Linux on WSL (Windows Subsystem for Linux) with terminal tools like fastfetch, cmatrix, btop, tty-clock, pipes.sh and more.
 
-![Setup Preview](wsl-arch.png)
+![Setup Preview](wsl-arch.jpg.png)
 
 ---
 
