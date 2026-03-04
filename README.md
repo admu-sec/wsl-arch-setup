@@ -1,8 +1,8 @@
-# WSL Arch Linux Setup
+# Arch Linux WSL Setup
 
 A quick setup guide for installing Arch Linux on WSL (Windows Subsystem for Linux) with terminal tools like fastfetch, cmatrix, btop, tty-clock, pipes.sh and more.
 
-![Setup Preview](wsl-arch.jpg.png)
+![Setup Preview](screenshot.png)
 
 ---
 
@@ -160,9 +160,23 @@ Then run a tool in each pane:
 | Pane | Command |
 |---|---|
 | Top left | `fastfetch` |
-| Top right | `tty-clock -s -c -C 2` |
+| Top right | `tty-clock -s -c -b` |
 | Bottom left | `btop` |
 | Bottom right | `cmatrix` |
+
+### Hide the status bar
+
+To hide the green tmux status bar at the bottom:
+
+```bash
+tmux set -g status off
+```
+
+To make it permanent:
+
+```bash
+echo "set -g status off" >> ~/.tmux.conf
+```
 
 ---
 
@@ -178,7 +192,7 @@ chmod +x setup.sh
 Or run directly:
 
 ```bash
-curl -s https://raw.githubusercontent.com/yourusername/wsl-setup/main/setup.sh | bash
+curl -s https://raw.githubusercontent.com/admu-sec/wsl-arch-setup/main/setup.sh | bash
 ```
 
 ---
@@ -215,9 +229,10 @@ wsl --unregister archlinux
 | `fastfetch` | Display system info |
 | `cmatrix` | Matrix animation (exit: `Ctrl+C`) |
 | `btop` | Resource monitor |
-| `tty-clock -s -c -C 2` | Terminal clock |
+| `tty-clock -s -c -b` | Terminal clock |
 | `pipes.sh` | Animated pipes |
 | `cbonsai -S` | Animated bonsai tree |
 | `tmux` | Terminal multiplexer |
+| `tmux set -g status off` | Hide tmux status bar |
 | `wsl --list --verbose` | List installed WSL distributions |
 | `wsl --unregister archlinux` | Uninstall Arch WSL |
